@@ -14,7 +14,7 @@ The interface is a direct port of the **AttnShift** frames in
 
 ## Run it
 
-**Live: <https://hazel0519.github.io/crowding-risk-monitor/>** — nothing to install, opens on any
+**Live: <https://arzoopatra.github.io/Crowding-Risk-Monitor/>** — nothing to install, opens on any
 device. Deployed from `main` on every push by [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
 
 ```bash
