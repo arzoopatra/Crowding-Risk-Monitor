@@ -245,8 +245,7 @@ the sidebar links to Method & limitations from every screen.
 
 | Member | Owns |
 |---|---|
-| **Jingyan Zhang** | Frontend and backend — the six screens, the derivations in [`src/lib/scoring.ts`](src/lib/scoring.ts), state and routing, the verification suite (`npm run verify`, `npm run e2e`), the Pages deployment, and the pipeline that produces the snapshot export the frontend reads, against the shape fixed in [`docs/DATA_CONTRACT.md`](docs/DATA_CONTRACT.md). |
-| **Raina Chi** | UI design — the AttnShift frames in [the Figma file](https://www.figma.com/design/TckDMOdoirIwUmFY1miIaD/Public-Crowding-Risk-Monitor) this interface is ported from, including the design tokens, spacing and type carried into [`src/index.css`](src/index.css). Research trail and demo video. |
+| **Arzoo** | **End-to-end development and ownership** — product implementation, frontend and backend development, all six screens, AttnShift UI implementation, design tokens and responsive layout, signal derivations in [`src/lib/scoring.ts`](src/lib/scoring.ts), state management and routing, data generation and snapshot pipeline, prototype API, explainability and methodology screens, Alert History and Watchlist functionality, verification suite (`npm run verify`, `npm run e2e`), GitHub Pages deployment, research trail, demo video, and final integration of the complete project. |
 
 The two tracks meet at the Figma tokens, copied into `src/index.css` rather than re-invented,
 which is why design and code could run in parallel. Inside the build, backend meets frontend at
