@@ -1,0 +1,2129 @@
+{
+  "fixture_version": "1.0.0",
+  "dataset": "demo-fixture",
+  "is_illustrative": true,
+  "generated_at": "2026-08-22T12:43:14.366Z",
+  "generated_from": "src/data/snapshot.json",
+  "as_of": "2026-08-22",
+  "window_sessions": 30,
+  "sources_expected": [
+    "news",
+    "forum",
+    "search",
+    "filings"
+  ],
+  "disclaimer": "Synthetic demonstration snapshot. Tickers, company names, values, headlines and historical outcomes are generated for prototype testing and are not market data.",
+  "instruments": [
+    {
+      "ticker": "NVX",
+      "name": "Novexa Semiconductor",
+      "sector": "Semiconductors",
+      "as_of": "2026-08-22",
+      "collected_at": "2026-08-22T06:24:44.933Z",
+      "daily_mentions": [
+        {
+          "date": "2026-07-24",
+          "mentions": 967
+        },
+        {
+          "date": "2026-07-25",
+          "mentions": 734
+        },
+        {
+          "date": "2026-07-26",
+          "mentions": 815
+        },
+        {
+          "date": "2026-07-27",
+          "mentions": 975
+        },
+        {
+          "date": "2026-07-28",
+          "mentions": 858
+        },
+        {
+          "date": "2026-07-29",
+          "mentions": 960
+        },
+        {
+          "date": "2026-07-30",
+          "mentions": 960
+        },
+        {
+          "date": "2026-07-31",
+          "mentions": 1042
+        },
+        {
+          "date": "2026-08-01",
+          "mentions": 776
+        },
+        {
+          "date": "2026-08-02",
+          "mentions": 703
+        },
+        {
+          "date": "2026-08-03",
+          "mentions": 899
+        },
+        {
+          "date": "2026-08-04",
+          "mentions": 808
+        },
+        {
+          "date": "2026-08-05",
+          "mentions": 1170
+        },
+        {
+          "date": "2026-08-06",
+          "mentions": 1041
+        },
+        {
+          "date": "2026-08-07",
+          "mentions": 872
+        },
+        {
+          "date": "2026-08-08",
+          "mentions": 788
+        },
+        {
+          "date": "2026-08-09",
+          "mentions": 577
+        },
+        {
+          "date": "2026-08-10",
+          "mentions": 915
+        },
+        {
+          "date": "2026-08-11",
+          "mentions": 855
+        },
+        {
+          "date": "2026-08-12",
+          "mentions": 1062
+        },
+        {
+          "date": "2026-08-13",
+          "mentions": 1070
+        },
+        {
+          "date": "2026-08-14",
+          "mentions": 989
+        },
+        {
+          "date": "2026-08-15",
+          "mentions": 1200
+        },
+        {
+          "date": "2026-08-16",
+          "mentions": 1171
+        },
+        {
+          "date": "2026-08-17",
+          "mentions": 1304
+        },
+        {
+          "date": "2026-08-18",
+          "mentions": 1334
+        },
+        {
+          "date": "2026-08-19",
+          "mentions": 2364
+        },
+        {
+          "date": "2026-08-20",
+          "mentions": 2192
+        },
+        {
+          "date": "2026-08-21",
+          "mentions": 2476
+        },
+        {
+          "date": "2026-08-22",
+          "mentions": 3408
+        }
+      ],
+      "classification": {
+        "total_items": 3408,
+        "bullish_items": 1914,
+        "bearish_items": 540,
+        "unclassified_items": 954
+      },
+      "sources": [
+        {
+          "id": "news",
+          "label": "Licensed news feed",
+          "items": 1458,
+          "reporting": true,
+          "note": "Wire and publisher headlines under a licensed feed."
+        },
+        {
+          "id": "forum",
+          "label": "Authorised forum sample",
+          "items": 1038,
+          "reporting": true,
+          "note": "Retail-heavy discussion; skews toward high-visibility names."
+        },
+        {
+          "id": "search",
+          "label": "Public search interest",
+          "items": 767,
+          "reporting": true,
+          "note": "Normalised index, not raw counts. Weekly re-basing."
+        },
+        {
+          "id": "filings",
+          "label": "Company disclosure feed",
+          "items": 145,
+          "reporting": true,
+          "note": "Scheduled disclosures. Causes attention spikes unrelated to positioning."
+        }
+      ],
+      "related_event": {
+        "date": "2026-08-19",
+        "type": "earnings",
+        "label": "Earnings",
+        "headline": "NVX guidance commentary drives extended-hours coverage",
+        "source": "Licensed news feed",
+        "possible_confounder": true
+      },
+      "limitations": [
+        "The earnings release sits inside the window and could account for the whole attention change on its own.",
+        "A licensed-news-led rise measures editorial attention, not who is positioned."
+      ]
+    },
+    {
+      "ticker": "MIN",
+      "name": "Meridian Industrials",
+      "sector": "Industrials",
+      "as_of": "2026-08-22",
+      "collected_at": "2026-08-22T07:11:44.933Z",
+      "daily_mentions": [
+        {
+          "date": "2026-07-24",
+          "mentions": 322
+        },
+        {
+          "date": "2026-07-25",
+          "mentions": 239
+        },
+        {
+          "date": "2026-07-26",
+          "mentions": 244
+        },
+        {
+          "date": "2026-07-27",
+          "mentions": 305
+        },
+        {
+          "date": "2026-07-28",
+          "mentions": 324
+        },
+        {
+          "date": "2026-07-29",
+          "mentions": 249
+        },
+        {
+          "date": "2026-07-30",
+          "mentions": 269
+        },
+        {
+          "date": "2026-07-31",
+          "mentions": 262
+        },
+        {
+          "date": "2026-08-01",
+          "mentions": 168
+        },
+        {
+          "date": "2026-08-02",
+          "mentions": 263
+        },
+        {
+          "date": "2026-08-03",
+          "mentions": 290
+        },
+        {
+          "date": "2026-08-04",
+          "mentions": 306
+        },
+        {
+          "date": "2026-08-05",
+          "mentions": 284
+        },
+        {
+          "date": "2026-08-06",
+          "mentions": 360
+        },
+        {
+          "date": "2026-08-07",
+          "mentions": 287
+        },
+        {
+          "date": "2026-08-08",
+          "mentions": 304
+        },
+        {
+          "date": "2026-08-09",
+          "mentions": 255
+        },
+        {
+          "date": "2026-08-10",
+          "mentions": 272
+        },
+        {
+          "date": "2026-08-11",
+          "mentions": 329
+        },
+        {
+          "date": "2026-08-12",
+          "mentions": 234
+        },
+        {
+          "date": "2026-08-13",
+          "mentions": 294
+        },
+        {
+          "date": "2026-08-14",
+          "mentions": 315
+        },
+        {
+          "date": "2026-08-15",
+          "mentions": 355
+        },
+        {
+          "date": "2026-08-16",
+          "mentions": 258
+        },
+        {
+          "date": "2026-08-17",
+          "mentions": 314
+        },
+        {
+          "date": "2026-08-18",
+          "mentions": 316
+        },
+        {
+          "date": "2026-08-19",
+          "mentions": 341
+        },
+        {
+          "date": "2026-08-20",
+          "mentions": 229
+        },
+        {
+          "date": "2026-08-21",
+          "mentions": 268
+        },
+        {
+          "date": "2026-08-22",
+          "mentions": 512
+        }
+      ],
+      "classification": {
+        "total_items": 512,
+        "bullish_items": 225,
+        "bearish_items": 144,
+        "unclassified_items": 143
+      },
+      "sources": [
+        {
+          "id": "news",
+          "label": "Licensed news feed",
+          "items": 215,
+          "reporting": true,
+          "note": "Wire and publisher headlines under a licensed feed."
+        },
+        {
+          "id": "forum",
+          "label": "Authorised forum sample",
+          "items": 150,
+          "reporting": true,
+          "note": "Retail-heavy discussion; skews toward high-visibility names."
+        },
+        {
+          "id": "search",
+          "label": "Public search interest",
+          "items": 113,
+          "reporting": true,
+          "note": "Normalised index, not raw counts. Weekly re-basing."
+        },
+        {
+          "id": "filings",
+          "label": "Company disclosure feed",
+          "items": 34,
+          "reporting": true,
+          "note": "Scheduled disclosures. Causes attention spikes unrelated to positioning."
+        }
+      ],
+      "related_event": {
+        "date": "2026-08-20",
+        "type": "news",
+        "label": "Analyst upgrade",
+        "headline": "Meridian Industrials coverage picks up across major outlets",
+        "source": "Licensed news feed",
+        "possible_confounder": true
+      },
+      "limitations": [
+        "An analyst upgrade coincides with the rise and could account for it on its own.",
+        "A 61% dominant-direction share is close enough to an even split that the agreement reading is weak."
+      ]
+    },
+    {
+      "ticker": "QGG",
+      "name": "Quantgrid Group",
+      "sector": "Digital Infrastructure",
+      "as_of": "2026-08-22",
+      "collected_at": "2026-08-22T06:36:44.933Z",
+      "daily_mentions": [
+        {
+          "date": "2026-07-24",
+          "mentions": 170
+        },
+        {
+          "date": "2026-07-25",
+          "mentions": 173
+        },
+        {
+          "date": "2026-07-26",
+          "mentions": 178
+        },
+        {
+          "date": "2026-07-27",
+          "mentions": 139
+        },
+        {
+          "date": "2026-07-28",
+          "mentions": 142
+        },
+        {
+          "date": "2026-07-29",
+          "mentions": 180
+        },
+        {
+          "date": "2026-07-30",
+          "mentions": 165
+        },
+        {
+          "date": "2026-07-31",
+          "mentions": 158
+        },
+        {
+          "date": "2026-08-01",
+          "mentions": 191
+        },
+        {
+          "date": "2026-08-02",
+          "mentions": 135
+        },
+        {
+          "date": "2026-08-03",
+          "mentions": 170
+        },
+        {
+          "date": "2026-08-04",
+          "mentions": 196
+        },
+        {
+          "date": "2026-08-05",
+          "mentions": 135
+        },
+        {
+          "date": "2026-08-06",
+          "mentions": 185
+        },
+        {
+          "date": "2026-08-07",
+          "mentions": 175
+        },
+        {
+          "date": "2026-08-08",
+          "mentions": 134
+        },
+        {
+          "date": "2026-08-09",
+          "mentions": 161
+        },
+        {
+          "date": "2026-08-10",
+          "mentions": 124
+        },
+        {
+          "date": "2026-08-11",
+          "mentions": 169
+        },
+        {
+          "date": "2026-08-12",
+          "mentions": 172
+        },
+        {
+          "date": "2026-08-13",
+          "mentions": 147
+        },
+        {
+          "date": "2026-08-14",
+          "mentions": 166
+        },
+        {
+          "date": "2026-08-15",
+          "mentions": 177
+        },
+        {
+          "date": "2026-08-16",
+          "mentions": 167
+        },
+        {
+          "date": "2026-08-17",
+          "mentions": 173
+        },
+        {
+          "date": "2026-08-18",
+          "mentions": 183
+        },
+        {
+          "date": "2026-08-19",
+          "mentions": 183
+        },
+        {
+          "date": "2026-08-20",
+          "mentions": 162
+        },
+        {
+          "date": "2026-08-21",
+          "mentions": 191
+        },
+        {
+          "date": "2026-08-22",
+          "mentions": 265
+        }
+      ],
+      "classification": {
+        "total_items": 265,
+        "bullish_items": 82,
+        "bearish_items": 109,
+        "unclassified_items": 74
+      },
+      "sources": [
+        {
+          "id": "news",
+          "label": "Licensed news feed",
+          "items": 106,
+          "reporting": true,
+          "note": "Wire and publisher headlines under a licensed feed."
+        },
+        {
+          "id": "forum",
+          "label": "Authorised forum sample",
+          "items": 77,
+          "reporting": true,
+          "note": "Retail-heavy discussion; skews toward high-visibility names."
+        },
+        {
+          "id": "search",
+          "label": "Public search interest",
+          "items": 62,
+          "reporting": true,
+          "note": "Normalised index, not raw counts. Weekly re-basing."
+        },
+        {
+          "id": "filings",
+          "label": "Company disclosure feed",
+          "items": 20,
+          "reporting": true,
+          "note": "Scheduled disclosures. Causes attention spikes unrelated to positioning."
+        }
+      ],
+      "related_event": {
+        "date": "2026-08-18",
+        "type": "news",
+        "label": "Media coverage",
+        "headline": "Sector note names QGG among most-discussed",
+        "source": "Licensed news feed",
+        "possible_confounder": false
+      },
+      "limitations": [
+        "One source group returned partial data, so the mention count is biased downward.",
+        "A 57% bearish share is a slight lean, not a consensus."
+      ]
+    },
+    {
+      "ticker": "ORBX",
+      "name": "Orbex Dynamics",
+      "sector": "Aerospace & Defence",
+      "as_of": "2026-08-22",
+      "collected_at": "2026-08-22T06:25:44.933Z",
+      "daily_mentions": [
+        {
+          "date": "2026-07-24",
+          "mentions": 255
+        },
+        {
+          "date": "2026-07-25",
+          "mentions": 250
+        },
+        {
+          "date": "2026-07-26",
+          "mentions": 243
+        },
+        {
+          "date": "2026-07-27",
+          "mentions": 203
+        },
+        {
+          "date": "2026-07-28",
+          "mentions": 231
+        },
+        {
+          "date": "2026-07-29",
+          "mentions": 206
+        },
+        {
+          "date": "2026-07-30",
+          "mentions": 231
+        },
+        {
+          "date": "2026-07-31",
+          "mentions": 233
+        },
+        {
+          "date": "2026-08-01",
+          "mentions": 251
+        },
+        {
+          "date": "2026-08-02",
+          "mentions": 190
+        },
+        {
+          "date": "2026-08-03",
+          "mentions": 237
+        },
+        {
+          "date": "2026-08-04",
+          "mentions": 234
+        },
+        {
+          "date": "2026-08-05",
+          "mentions": 276
+        },
+        {
+          "date": "2026-08-06",
+          "mentions": 228
+        },
+        {
+          "date": "2026-08-07",
+          "mentions": 187
+        },
+        {
+          "date": "2026-08-08",
+          "mentions": 197
+        },
+        {
+          "date": "2026-08-09",
+          "mentions": 229
+        },
+        {
+          "date": "2026-08-10",
+          "mentions": 215
+        },
+        {
+          "date": "2026-08-11",
+          "mentions": 220
+        },
+        {
+          "date": "2026-08-12",
+          "mentions": 236
+        },
+        {
+          "date": "2026-08-13",
+          "mentions": 206
+        },
+        {
+          "date": "2026-08-14",
+          "mentions": 333
+        },
+        {
+          "date": "2026-08-15",
+          "mentions": 245
+        },
+        {
+          "date": "2026-08-16",
+          "mentions": 215
+        },
+        {
+          "date": "2026-08-17",
+          "mentions": 410
+        },
+        {
+          "date": "2026-08-18",
+          "mentions": 352
+        },
+        {
+          "date": "2026-08-19",
+          "mentions": 570
+        },
+        {
+          "date": "2026-08-20",
+          "mentions": 765
+        },
+        {
+          "date": "2026-08-21",
+          "mentions": 950
+        },
+        {
+          "date": "2026-08-22",
+          "mentions": 1618
+        }
+      ],
+      "classification": {
+        "total_items": 1618,
+        "bullish_items": 1081,
+        "bearish_items": 84,
+        "unclassified_items": 453
+      },
+      "sources": [
+        {
+          "id": "news",
+          "label": "Licensed news feed",
+          "items": 267,
+          "reporting": true,
+          "note": "Wire and publisher headlines under a licensed feed."
+        },
+        {
+          "id": "forum",
+          "label": "Authorised forum sample",
+          "items": 1033,
+          "reporting": true,
+          "note": "Retail-heavy discussion; skews toward high-visibility names."
+        },
+        {
+          "id": "search",
+          "label": "Public search interest",
+          "items": 235,
+          "reporting": true,
+          "note": "Normalised index, not raw counts. Weekly re-basing."
+        },
+        {
+          "id": "filings",
+          "label": "Company disclosure feed",
+          "items": 83,
+          "reporting": true,
+          "note": "Scheduled disclosures. Causes attention spikes unrelated to positioning."
+        }
+      ],
+      "related_event": {
+        "date": "2026-08-01",
+        "type": "news",
+        "label": "Media coverage note",
+        "headline": "Orbex Dynamics coverage picks up across major outlets",
+        "source": "Licensed news feed",
+        "possible_confounder": false
+      },
+      "limitations": [
+        "Most of the volume comes from one retail-heavy forum sample, which covers a narrow population.",
+        "One or more source groups returned partial data for this window."
+      ]
+    },
+    {
+      "ticker": "KVRA",
+      "name": "Kavira Therapeutics",
+      "sector": "Biotechnology",
+      "as_of": "2026-08-22",
+      "collected_at": "2026-08-22T06:31:44.933Z",
+      "daily_mentions": [
+        {
+          "date": "2026-07-24",
+          "mentions": 175
+        },
+        {
+          "date": "2026-07-25",
+          "mentions": 166
+        },
+        {
+          "date": "2026-07-26",
+          "mentions": 139
+        },
+        {
+          "date": "2026-07-27",
+          "mentions": 174
+        },
+        {
+          "date": "2026-07-28",
+          "mentions": 122
+        },
+        {
+          "date": "2026-07-29",
+          "mentions": 147
+        },
+        {
+          "date": "2026-07-30",
+          "mentions": 132
+        },
+        {
+          "date": "2026-07-31",
+          "mentions": 105
+        },
+        {
+          "date": "2026-08-01",
+          "mentions": 135
+        },
+        {
+          "date": "2026-08-02",
+          "mentions": 162
+        },
+        {
+          "date": "2026-08-03",
+          "mentions": 170
+        },
+        {
+          "date": "2026-08-04",
+          "mentions": 157
+        },
+        {
+          "date": "2026-08-05",
+          "mentions": 147
+        },
+        {
+          "date": "2026-08-06",
+          "mentions": 170
+        },
+        {
+          "date": "2026-08-07",
+          "mentions": 128
+        },
+        {
+          "date": "2026-08-08",
+          "mentions": 124
+        },
+        {
+          "date": "2026-08-09",
+          "mentions": 174
+        },
+        {
+          "date": "2026-08-10",
+          "mentions": 130
+        },
+        {
+          "date": "2026-08-11",
+          "mentions": 142
+        },
+        {
+          "date": "2026-08-12",
+          "mentions": 145
+        },
+        {
+          "date": "2026-08-13",
+          "mentions": 158
+        },
+        {
+          "date": "2026-08-14",
+          "mentions": 150
+        },
+        {
+          "date": "2026-08-15",
+          "mentions": 190
+        },
+        {
+          "date": "2026-08-16",
+          "mentions": 175
+        },
+        {
+          "date": "2026-08-17",
+          "mentions": 232
+        },
+        {
+          "date": "2026-08-18",
+          "mentions": 263
+        },
+        {
+          "date": "2026-08-19",
+          "mentions": 278
+        },
+        {
+          "date": "2026-08-20",
+          "mentions": 422
+        },
+        {
+          "date": "2026-08-21",
+          "mentions": 547
+        },
+        {
+          "date": "2026-08-22",
+          "mentions": 531
+        }
+      ],
+      "classification": {
+        "total_items": 531,
+        "bullish_items": 88,
+        "bearish_items": 294,
+        "unclassified_items": 149
+      },
+      "sources": [
+        {
+          "id": "news",
+          "label": "Licensed news feed",
+          "items": 239,
+          "reporting": true,
+          "note": "Wire and publisher headlines under a licensed feed."
+        },
+        {
+          "id": "forum",
+          "label": "Authorised forum sample",
+          "items": 150,
+          "reporting": true,
+          "note": "Retail-heavy discussion; skews toward high-visibility names."
+        },
+        {
+          "id": "search",
+          "label": "Public search interest",
+          "items": 109,
+          "reporting": true,
+          "note": "Normalised index, not raw counts. Weekly re-basing."
+        },
+        {
+          "id": "filings",
+          "label": "Company disclosure feed",
+          "items": 33,
+          "reporting": true,
+          "note": "Scheduled disclosures. Causes attention spikes unrelated to positioning."
+        }
+      ],
+      "related_event": {
+        "date": "2026-08-14",
+        "type": "forum",
+        "label": "Forum volume note",
+        "headline": "KVRA appears in daily most-mentioned list",
+        "source": "Authorised forum sample",
+        "possible_confounder": false
+      },
+      "limitations": [
+        "No scheduled event was found, so an unrecorded catalyst outside these sources cannot be excluded."
+      ]
+    },
+    {
+      "ticker": "ZNTH",
+      "name": "Zenith Grid Energy",
+      "sector": "Utilities",
+      "as_of": "2026-08-22",
+      "collected_at": "2026-08-22T06:40:44.933Z",
+      "daily_mentions": [
+        {
+          "date": "2026-07-24",
+          "mentions": 412
+        },
+        {
+          "date": "2026-07-25",
+          "mentions": 511
+        },
+        {
+          "date": "2026-07-26",
+          "mentions": 428
+        },
+        {
+          "date": "2026-07-27",
+          "mentions": 370
+        },
+        {
+          "date": "2026-07-28",
+          "mentions": 420
+        },
+        {
+          "date": "2026-07-29",
+          "mentions": 404
+        },
+        {
+          "date": "2026-07-30",
+          "mentions": 434
+        },
+        {
+          "date": "2026-07-31",
+          "mentions": 389
+        },
+        {
+          "date": "2026-08-01",
+          "mentions": 328
+        },
+        {
+          "date": "2026-08-02",
+          "mentions": 465
+        },
+        {
+          "date": "2026-08-03",
+          "mentions": 410
+        },
+        {
+          "date": "2026-08-04",
+          "mentions": 378
+        },
+        {
+          "date": "2026-08-05",
+          "mentions": 471
+        },
+        {
+          "date": "2026-08-06",
+          "mentions": 354
+        },
+        {
+          "date": "2026-08-07",
+          "mentions": 455
+        },
+        {
+          "date": "2026-08-08",
+          "mentions": 450
+        },
+        {
+          "date": "2026-08-09",
+          "mentions": 421
+        },
+        {
+          "date": "2026-08-10",
+          "mentions": 489
+        },
+        {
+          "date": "2026-08-11",
+          "mentions": 427
+        },
+        {
+          "date": "2026-08-12",
+          "mentions": 613
+        },
+        {
+          "date": "2026-08-13",
+          "mentions": 528
+        },
+        {
+          "date": "2026-08-14",
+          "mentions": 535
+        },
+        {
+          "date": "2026-08-15",
+          "mentions": 541
+        },
+        {
+          "date": "2026-08-16",
+          "mentions": 344
+        },
+        {
+          "date": "2026-08-17",
+          "mentions": 683
+        },
+        {
+          "date": "2026-08-18",
+          "mentions": 625
+        },
+        {
+          "date": "2026-08-19",
+          "mentions": 752
+        },
+        {
+          "date": "2026-08-20",
+          "mentions": 692
+        },
+        {
+          "date": "2026-08-21",
+          "mentions": 687
+        },
+        {
+          "date": "2026-08-22",
+          "mentions": 856
+        }
+      ],
+      "classification": {
+        "total_items": 856,
+        "bullish_items": 503,
+        "bearish_items": 113,
+        "unclassified_items": 240
+      },
+      "sources": [
+        {
+          "id": "news",
+          "label": "Licensed news feed",
+          "items": 328,
+          "reporting": true,
+          "note": "Wire and publisher headlines under a licensed feed."
+        },
+        {
+          "id": "forum",
+          "label": "Authorised forum sample",
+          "items": 260,
+          "reporting": true,
+          "note": "Retail-heavy discussion; skews toward high-visibility names."
+        },
+        {
+          "id": "search",
+          "label": "Public search interest",
+          "items": 206,
+          "reporting": true,
+          "note": "Normalised index, not raw counts. Weekly re-basing."
+        },
+        {
+          "id": "filings",
+          "label": "Company disclosure feed",
+          "items": 62,
+          "reporting": true,
+          "note": "Scheduled disclosures. Causes attention spikes unrelated to positioning."
+        }
+      ],
+      "related_event": {
+        "date": "2026-08-09",
+        "type": "news",
+        "label": "Media coverage note",
+        "headline": "Sector note names ZNTH among most-discussed",
+        "source": "Licensed news feed",
+        "possible_confounder": false
+      },
+      "limitations": [
+        "A gradual build is harder to separate from a slow drift in source coverage than a single-day spike."
+      ]
+    },
+    {
+      "ticker": "SLTR",
+      "name": "Solterra Materials",
+      "sector": "Materials",
+      "as_of": "2026-08-22",
+      "collected_at": "2026-08-22T06:44:44.933Z",
+      "daily_mentions": [
+        {
+          "date": "2026-07-24",
+          "mentions": 210
+        },
+        {
+          "date": "2026-07-25",
+          "mentions": 299
+        },
+        {
+          "date": "2026-07-26",
+          "mentions": 223
+        },
+        {
+          "date": "2026-07-27",
+          "mentions": 335
+        },
+        {
+          "date": "2026-07-28",
+          "mentions": 268
+        },
+        {
+          "date": "2026-07-29",
+          "mentions": 257
+        },
+        {
+          "date": "2026-07-30",
+          "mentions": 230
+        },
+        {
+          "date": "2026-07-31",
+          "mentions": 298
+        },
+        {
+          "date": "2026-08-01",
+          "mentions": 188
+        },
+        {
+          "date": "2026-08-02",
+          "mentions": 165
+        },
+        {
+          "date": "2026-08-03",
+          "mentions": 264
+        },
+        {
+          "date": "2026-08-04",
+          "mentions": 264
+        },
+        {
+          "date": "2026-08-05",
+          "mentions": 238
+        },
+        {
+          "date": "2026-08-06",
+          "mentions": 203
+        },
+        {
+          "date": "2026-08-07",
+          "mentions": 203
+        },
+        {
+          "date": "2026-08-08",
+          "mentions": 315
+        },
+        {
+          "date": "2026-08-09",
+          "mentions": 279
+        },
+        {
+          "date": "2026-08-10",
+          "mentions": 286
+        },
+        {
+          "date": "2026-08-11",
+          "mentions": 302
+        },
+        {
+          "date": "2026-08-12",
+          "mentions": 328
+        },
+        {
+          "date": "2026-08-13",
+          "mentions": 250
+        },
+        {
+          "date": "2026-08-14",
+          "mentions": 296
+        },
+        {
+          "date": "2026-08-15",
+          "mentions": 364
+        },
+        {
+          "date": "2026-08-16",
+          "mentions": 425
+        },
+        {
+          "date": "2026-08-17",
+          "mentions": 306
+        },
+        {
+          "date": "2026-08-18",
+          "mentions": 374
+        },
+        {
+          "date": "2026-08-19",
+          "mentions": 404
+        },
+        {
+          "date": "2026-08-20",
+          "mentions": 440
+        },
+        {
+          "date": "2026-08-21",
+          "mentions": 430
+        },
+        {
+          "date": "2026-08-22",
+          "mentions": 541
+        }
+      ],
+      "classification": {
+        "total_items": 541,
+        "bullish_items": 234,
+        "bearish_items": 156,
+        "unclassified_items": 151
+      },
+      "sources": [
+        {
+          "id": "news",
+          "label": "Licensed news feed",
+          "items": 214,
+          "reporting": true,
+          "note": "Wire and publisher headlines under a licensed feed."
+        },
+        {
+          "id": "forum",
+          "label": "Authorised forum sample",
+          "items": 174,
+          "reporting": true,
+          "note": "Retail-heavy discussion; skews toward high-visibility names."
+        },
+        {
+          "id": "search",
+          "label": "Public search interest",
+          "items": 122,
+          "reporting": true,
+          "note": "Normalised index, not raw counts. Weekly re-basing."
+        },
+        {
+          "id": "filings",
+          "label": "Company disclosure feed",
+          "items": 31,
+          "reporting": true,
+          "note": "Scheduled disclosures. Causes attention spikes unrelated to positioning."
+        }
+      ],
+      "related_event": {
+        "date": "2026-08-16",
+        "type": "filing",
+        "label": "Delayed filing update",
+        "headline": "Solterra Materials files updated disclosure with the regulator",
+        "source": "Company disclosure feed",
+        "possible_confounder": true
+      },
+      "limitations": [
+        "A scheduled disclosure sits in the window and is discounted, which is why the level stays low despite the rise.",
+        "One or more source groups returned partial data for this window."
+      ]
+    },
+    {
+      "ticker": "AXOM",
+      "name": "Axiom Payments",
+      "sector": "Financials",
+      "as_of": "2026-08-22",
+      "collected_at": "2026-08-22T07:11:44.933Z",
+      "daily_mentions": [
+        {
+          "date": "2026-07-24",
+          "mentions": 329
+        },
+        {
+          "date": "2026-07-25",
+          "mentions": 292
+        },
+        {
+          "date": "2026-07-26",
+          "mentions": 321
+        },
+        {
+          "date": "2026-07-27",
+          "mentions": 342
+        },
+        {
+          "date": "2026-07-28",
+          "mentions": 250
+        },
+        {
+          "date": "2026-07-29",
+          "mentions": 235
+        },
+        {
+          "date": "2026-07-30",
+          "mentions": 314
+        },
+        {
+          "date": "2026-07-31",
+          "mentions": 277
+        },
+        {
+          "date": "2026-08-01",
+          "mentions": 287
+        },
+        {
+          "date": "2026-08-02",
+          "mentions": 288
+        },
+        {
+          "date": "2026-08-03",
+          "mentions": 272
+        },
+        {
+          "date": "2026-08-04",
+          "mentions": 316
+        },
+        {
+          "date": "2026-08-05",
+          "mentions": 234
+        },
+        {
+          "date": "2026-08-06",
+          "mentions": 232
+        },
+        {
+          "date": "2026-08-07",
+          "mentions": 304
+        },
+        {
+          "date": "2026-08-08",
+          "mentions": 266
+        },
+        {
+          "date": "2026-08-09",
+          "mentions": 313
+        },
+        {
+          "date": "2026-08-10",
+          "mentions": 373
+        },
+        {
+          "date": "2026-08-11",
+          "mentions": 348
+        },
+        {
+          "date": "2026-08-12",
+          "mentions": 403
+        },
+        {
+          "date": "2026-08-13",
+          "mentions": 441
+        },
+        {
+          "date": "2026-08-14",
+          "mentions": 418
+        },
+        {
+          "date": "2026-08-15",
+          "mentions": 461
+        },
+        {
+          "date": "2026-08-16",
+          "mentions": 445
+        },
+        {
+          "date": "2026-08-17",
+          "mentions": 392
+        },
+        {
+          "date": "2026-08-18",
+          "mentions": 507
+        },
+        {
+          "date": "2026-08-19",
+          "mentions": 546
+        },
+        {
+          "date": "2026-08-20",
+          "mentions": 459
+        },
+        {
+          "date": "2026-08-21",
+          "mentions": 669
+        },
+        {
+          "date": "2026-08-22",
+          "mentions": 656
+        }
+      ],
+      "classification": {
+        "total_items": 656,
+        "bullish_items": 360,
+        "bearish_items": 112,
+        "unclassified_items": 184
+      },
+      "sources": [
+        {
+          "id": "news",
+          "label": "Licensed news feed",
+          "items": 265,
+          "reporting": true,
+          "note": "Wire and publisher headlines under a licensed feed."
+        },
+        {
+          "id": "forum",
+          "label": "Authorised forum sample",
+          "items": 213,
+          "reporting": true,
+          "note": "Retail-heavy discussion; skews toward high-visibility names."
+        },
+        {
+          "id": "search",
+          "label": "Public search interest",
+          "items": 139,
+          "reporting": true,
+          "note": "Normalised index, not raw counts. Weekly re-basing."
+        },
+        {
+          "id": "filings",
+          "label": "Company disclosure feed",
+          "items": 39,
+          "reporting": true,
+          "note": "Scheduled disclosures. Causes attention spikes unrelated to positioning."
+        }
+      ],
+      "related_event": {
+        "date": "2026-08-13",
+        "type": "regulatory",
+        "label": "Regulatory consultation",
+        "headline": "Policy commentary references AXOM directly",
+        "source": "Company disclosure feed",
+        "possible_confounder": true
+      },
+      "limitations": [
+        "A regulatory consultation coincides with the rise and could account for it on its own."
+      ]
+    },
+    {
+      "ticker": "VNTR",
+      "name": "Ventra Mobility",
+      "sector": "Automotive",
+      "as_of": "2026-08-22",
+      "collected_at": "2026-08-22T06:40:44.933Z",
+      "daily_mentions": [
+        {
+          "date": "2026-07-24",
+          "mentions": 140
+        },
+        {
+          "date": "2026-07-25",
+          "mentions": 169
+        },
+        {
+          "date": "2026-07-26",
+          "mentions": 184
+        },
+        {
+          "date": "2026-07-27",
+          "mentions": 199
+        },
+        {
+          "date": "2026-07-28",
+          "mentions": 236
+        },
+        {
+          "date": "2026-07-29",
+          "mentions": 172
+        },
+        {
+          "date": "2026-07-30",
+          "mentions": 185
+        },
+        {
+          "date": "2026-07-31",
+          "mentions": 155
+        },
+        {
+          "date": "2026-08-01",
+          "mentions": 144
+        },
+        {
+          "date": "2026-08-02",
+          "mentions": 168
+        },
+        {
+          "date": "2026-08-03",
+          "mentions": 161
+        },
+        {
+          "date": "2026-08-04",
+          "mentions": 195
+        },
+        {
+          "date": "2026-08-05",
+          "mentions": 174
+        },
+        {
+          "date": "2026-08-06",
+          "mentions": 135
+        },
+        {
+          "date": "2026-08-07",
+          "mentions": 185
+        },
+        {
+          "date": "2026-08-08",
+          "mentions": 176
+        },
+        {
+          "date": "2026-08-09",
+          "mentions": 160
+        },
+        {
+          "date": "2026-08-10",
+          "mentions": 140
+        },
+        {
+          "date": "2026-08-11",
+          "mentions": 154
+        },
+        {
+          "date": "2026-08-12",
+          "mentions": 211
+        },
+        {
+          "date": "2026-08-13",
+          "mentions": 208
+        },
+        {
+          "date": "2026-08-14",
+          "mentions": 176
+        },
+        {
+          "date": "2026-08-15",
+          "mentions": 217
+        },
+        {
+          "date": "2026-08-16",
+          "mentions": 180
+        },
+        {
+          "date": "2026-08-17",
+          "mentions": 163
+        },
+        {
+          "date": "2026-08-18",
+          "mentions": 222
+        },
+        {
+          "date": "2026-08-19",
+          "mentions": 205
+        },
+        {
+          "date": "2026-08-20",
+          "mentions": 196
+        },
+        {
+          "date": "2026-08-21",
+          "mentions": 232
+        },
+        {
+          "date": "2026-08-22",
+          "mentions": 265
+        }
+      ],
+      "classification": {
+        "total_items": 265,
+        "bullish_items": 59,
+        "bearish_items": 132,
+        "unclassified_items": 74
+      },
+      "sources": [
+        {
+          "id": "news",
+          "label": "Licensed news feed",
+          "items": 112,
+          "reporting": true,
+          "note": "Wire and publisher headlines under a licensed feed."
+        },
+        {
+          "id": "forum",
+          "label": "Authorised forum sample",
+          "items": 74,
+          "reporting": true,
+          "note": "Retail-heavy discussion; skews toward high-visibility names."
+        },
+        {
+          "id": "search",
+          "label": "Public search interest",
+          "items": 57,
+          "reporting": true,
+          "note": "Normalised index, not raw counts. Weekly re-basing."
+        },
+        {
+          "id": "filings",
+          "label": "Company disclosure feed",
+          "items": 22,
+          "reporting": true,
+          "note": "Scheduled disclosures. Causes attention spikes unrelated to positioning."
+        }
+      ],
+      "related_event": {
+        "date": "2026-08-18",
+        "type": "news",
+        "label": "Media coverage note",
+        "headline": "Ventra Mobility coverage picks up across major outlets",
+        "source": "Licensed news feed",
+        "possible_confounder": false
+      },
+      "limitations": [
+        "One or more source groups returned partial data, so the mention count is biased downward."
+      ]
+    },
+    {
+      "ticker": "CRSL",
+      "name": "Carousel Media Group",
+      "sector": "Media",
+      "as_of": "2026-08-22",
+      "collected_at": "2026-08-22T06:33:44.933Z",
+      "daily_mentions": [
+        {
+          "date": "2026-07-24",
+          "mentions": 1324
+        },
+        {
+          "date": "2026-07-25",
+          "mentions": 1532
+        },
+        {
+          "date": "2026-07-26",
+          "mentions": 1202
+        },
+        {
+          "date": "2026-07-27",
+          "mentions": 938
+        },
+        {
+          "date": "2026-07-28",
+          "mentions": 1118
+        },
+        {
+          "date": "2026-07-29",
+          "mentions": 1018
+        },
+        {
+          "date": "2026-07-30",
+          "mentions": 1194
+        },
+        {
+          "date": "2026-07-31",
+          "mentions": 1158
+        },
+        {
+          "date": "2026-08-01",
+          "mentions": 1189
+        },
+        {
+          "date": "2026-08-02",
+          "mentions": 1158
+        },
+        {
+          "date": "2026-08-03",
+          "mentions": 1072
+        },
+        {
+          "date": "2026-08-04",
+          "mentions": 1261
+        },
+        {
+          "date": "2026-08-05",
+          "mentions": 1200
+        },
+        {
+          "date": "2026-08-06",
+          "mentions": 1186
+        },
+        {
+          "date": "2026-08-07",
+          "mentions": 953
+        },
+        {
+          "date": "2026-08-08",
+          "mentions": 1461
+        },
+        {
+          "date": "2026-08-09",
+          "mentions": 1128
+        },
+        {
+          "date": "2026-08-10",
+          "mentions": 1251
+        },
+        {
+          "date": "2026-08-11",
+          "mentions": 1407
+        },
+        {
+          "date": "2026-08-12",
+          "mentions": 1147
+        },
+        {
+          "date": "2026-08-13",
+          "mentions": 1113
+        },
+        {
+          "date": "2026-08-14",
+          "mentions": 876
+        },
+        {
+          "date": "2026-08-15",
+          "mentions": 1295
+        },
+        {
+          "date": "2026-08-16",
+          "mentions": 1060
+        },
+        {
+          "date": "2026-08-17",
+          "mentions": 1273
+        },
+        {
+          "date": "2026-08-18",
+          "mentions": 1343
+        },
+        {
+          "date": "2026-08-19",
+          "mentions": 1151
+        },
+        {
+          "date": "2026-08-20",
+          "mentions": 1432
+        },
+        {
+          "date": "2026-08-21",
+          "mentions": 1619
+        },
+        {
+          "date": "2026-08-22",
+          "mentions": 1202
+        }
+      ],
+      "classification": {
+        "total_items": 1202,
+        "bullish_items": 507,
+        "bearish_items": 358,
+        "unclassified_items": 337
+      },
+      "sources": [
+        {
+          "id": "news",
+          "label": "Licensed news feed",
+          "items": 469,
+          "reporting": true,
+          "note": "Wire and publisher headlines under a licensed feed."
+        },
+        {
+          "id": "forum",
+          "label": "Authorised forum sample",
+          "items": 390,
+          "reporting": true,
+          "note": "Retail-heavy discussion; skews toward high-visibility names."
+        },
+        {
+          "id": "search",
+          "label": "Public search interest",
+          "items": 248,
+          "reporting": true,
+          "note": "Normalised index, not raw counts. Weekly re-basing."
+        },
+        {
+          "id": "filings",
+          "label": "Company disclosure feed",
+          "items": 95,
+          "reporting": true,
+          "note": "Scheduled disclosures. Causes attention spikes unrelated to positioning."
+        }
+      ],
+      "related_event": {
+        "date": "2026-08-20",
+        "type": "news",
+        "label": "Media coverage",
+        "headline": "Carousel Media Group coverage picks up across major outlets",
+        "source": "Licensed news feed",
+        "possible_confounder": false
+      },
+      "limitations": [
+        "Press coverage coincides with the rise and could account for it on its own."
+      ]
+    },
+    {
+      "ticker": "HRVS",
+      "name": "Harvest Foods Co.",
+      "sector": "Consumer Staples",
+      "as_of": "2026-08-22",
+      "collected_at": "2026-08-22T06:49:44.933Z",
+      "daily_mentions": [
+        {
+          "date": "2026-07-24",
+          "mentions": 506
+        },
+        {
+          "date": "2026-07-25",
+          "mentions": 446
+        },
+        {
+          "date": "2026-07-26",
+          "mentions": 423
+        },
+        {
+          "date": "2026-07-27",
+          "mentions": 670
+        },
+        {
+          "date": "2026-07-28",
+          "mentions": 589
+        },
+        {
+          "date": "2026-07-29",
+          "mentions": 659
+        },
+        {
+          "date": "2026-07-30",
+          "mentions": 581
+        },
+        {
+          "date": "2026-07-31",
+          "mentions": 628
+        },
+        {
+          "date": "2026-08-01",
+          "mentions": 709
+        },
+        {
+          "date": "2026-08-02",
+          "mentions": 492
+        },
+        {
+          "date": "2026-08-03",
+          "mentions": 750
+        },
+        {
+          "date": "2026-08-04",
+          "mentions": 559
+        },
+        {
+          "date": "2026-08-05",
+          "mentions": 686
+        },
+        {
+          "date": "2026-08-06",
+          "mentions": 610
+        },
+        {
+          "date": "2026-08-07",
+          "mentions": 629
+        },
+        {
+          "date": "2026-08-08",
+          "mentions": 629
+        },
+        {
+          "date": "2026-08-09",
+          "mentions": 564
+        },
+        {
+          "date": "2026-08-10",
+          "mentions": 811
+        },
+        {
+          "date": "2026-08-11",
+          "mentions": 669
+        },
+        {
+          "date": "2026-08-12",
+          "mentions": 664
+        },
+        {
+          "date": "2026-08-13",
+          "mentions": 717
+        },
+        {
+          "date": "2026-08-14",
+          "mentions": 555
+        },
+        {
+          "date": "2026-08-15",
+          "mentions": 624
+        },
+        {
+          "date": "2026-08-16",
+          "mentions": 617
+        },
+        {
+          "date": "2026-08-17",
+          "mentions": 748
+        },
+        {
+          "date": "2026-08-18",
+          "mentions": 668
+        },
+        {
+          "date": "2026-08-19",
+          "mentions": 591
+        },
+        {
+          "date": "2026-08-20",
+          "mentions": 718
+        },
+        {
+          "date": "2026-08-21",
+          "mentions": 707
+        },
+        {
+          "date": "2026-08-22",
+          "mentions": 789
+        }
+      ],
+      "classification": {
+        "total_items": 789,
+        "bullish_items": 323,
+        "bearish_items": 245,
+        "unclassified_items": 221
+      },
+      "sources": [
+        {
+          "id": "news",
+          "label": "Licensed news feed",
+          "items": 321,
+          "reporting": true,
+          "note": "Wire and publisher headlines under a licensed feed."
+        },
+        {
+          "id": "forum",
+          "label": "Authorised forum sample",
+          "items": 223,
+          "reporting": true,
+          "note": "Retail-heavy discussion; skews toward high-visibility names."
+        },
+        {
+          "id": "search",
+          "label": "Public search interest",
+          "items": 186,
+          "reporting": true,
+          "note": "Normalised index, not raw counts. Weekly re-basing."
+        },
+        {
+          "id": "filings",
+          "label": "Company disclosure feed",
+          "items": 59,
+          "reporting": true,
+          "note": "Scheduled disclosures. Causes attention spikes unrelated to positioning."
+        }
+      ],
+      "related_event": {
+        "date": "2026-08-17",
+        "type": "news",
+        "label": "Media coverage note",
+        "headline": "Harvest Foods Co. coverage picks up across major outlets",
+        "source": "Licensed news feed",
+        "possible_confounder": false
+      },
+      "limitations": [
+        "Nothing unusual is being measured here; a quiet reading is not evidence that nothing is happening."
+      ]
+    },
+    {
+      "ticker": "QNTL",
+      "name": "Quantel Labs",
+      "sector": "Quantum Computing",
+      "as_of": "2026-08-22",
+      "collected_at": "2026-08-22T06:34:44.933Z",
+      "daily_mentions": [
+        {
+          "date": "2026-07-24",
+          "mentions": 64
+        },
+        {
+          "date": "2026-07-25",
+          "mentions": 19
+        },
+        {
+          "date": "2026-07-26",
+          "mentions": 61
+        },
+        {
+          "date": "2026-07-27",
+          "mentions": 32
+        },
+        {
+          "date": "2026-07-28",
+          "mentions": 58
+        },
+        {
+          "date": "2026-07-29",
+          "mentions": 61
+        },
+        {
+          "date": "2026-07-30",
+          "mentions": 48
+        },
+        {
+          "date": "2026-07-31",
+          "mentions": 34
+        },
+        {
+          "date": "2026-08-01",
+          "mentions": 21
+        },
+        {
+          "date": "2026-08-02",
+          "mentions": 43
+        },
+        {
+          "date": "2026-08-03",
+          "mentions": 22
+        },
+        {
+          "date": "2026-08-04",
+          "mentions": 23
+        },
+        {
+          "date": "2026-08-05",
+          "mentions": 52
+        },
+        {
+          "date": "2026-08-06",
+          "mentions": 42
+        },
+        {
+          "date": "2026-08-07",
+          "mentions": 18
+        },
+        {
+          "date": "2026-08-08",
+          "mentions": 36
+        },
+        {
+          "date": "2026-08-09",
+          "mentions": 33
+        },
+        {
+          "date": "2026-08-10",
+          "mentions": 31
+        },
+        {
+          "date": "2026-08-11",
+          "mentions": 26
+        },
+        {
+          "date": "2026-08-12",
+          "mentions": 37
+        },
+        {
+          "date": "2026-08-13",
+          "mentions": 46
+        },
+        {
+          "date": "2026-08-14",
+          "mentions": 25
+        },
+        {
+          "date": "2026-08-15",
+          "mentions": 48
+        },
+        {
+          "date": "2026-08-16",
+          "mentions": 30
+        },
+        {
+          "date": "2026-08-17",
+          "mentions": 31
+        },
+        {
+          "date": "2026-08-18",
+          "mentions": 26
+        },
+        {
+          "date": "2026-08-19",
+          "mentions": 23
+        },
+        {
+          "date": "2026-08-20",
+          "mentions": 44
+        },
+        {
+          "date": "2026-08-21",
+          "mentions": 24
+        },
+        {
+          "date": "2026-08-22",
+          "mentions": 28
+        }
+      ],
+      "classification": {
+        "total_items": 28,
+        "bullish_items": 14,
+        "bearish_items": 6,
+        "unclassified_items": 8
+      },
+      "sources": [
+        {
+          "id": "news",
+          "label": "Licensed news feed",
+          "items": 9,
+          "reporting": true,
+          "note": "Wire and publisher headlines under a licensed feed."
+        },
+        {
+          "id": "forum",
+          "label": "Authorised forum sample",
+          "items": 6,
+          "reporting": true,
+          "note": "Retail-heavy discussion; skews toward high-visibility names."
+        },
+        {
+          "id": "search",
+          "label": "Public search interest",
+          "items": 13,
+          "reporting": true,
+          "note": "Normalised index, not raw counts. Weekly re-basing."
+        }
+      ],
+      "related_event": {
+        "date": "2026-08-02",
+        "type": "forum",
+        "label": "Forum volume note",
+        "headline": "Discussion volume on QNTL rises across authorised forum sample",
+        "source": "Authorised forum sample",
+        "possible_confounder": false
+      },
+      "limitations": [
+        "Source coverage is below the floor required to state a level at all, so no alert state is claimed.",
+        "A thin sample makes the z-score unstable from session to session."
+      ]
+    }
+  ]
+}
