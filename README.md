@@ -1,4 +1,4 @@
-# AttnShift — public attention monitor
+# AttnShift — Public Attention Monitor
 
 An explainable public-attention screen for resource-constrained quant researchers.
 Built for Catalyst Ingenium 2026, Fundamentum Track 1.
