@@ -6,6 +6,6 @@ import react from '@vitejs/plugin-react'
 // (https://hazel0519.github.io/crowding-risk-monitor/). Set to '/' for any host
 // that serves the app from a domain root.
 export default defineConfig({
-  base: '/crowding-risk-monitor/',
+  base: '/Crowding-Risk-Monitor/',
   plugins: [react()],
 })
